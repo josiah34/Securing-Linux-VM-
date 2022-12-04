@@ -40,7 +40,30 @@ I will be creating an Ubuntu VM on Linode in order to practice securing and hard
 * Disabling Password Authentication
 * Disabling root login
 * Only allowing ssh access to ipv4 ips as I will not be connecting using ipv6 ips. 
- 
+
+7. Restarting ssh service 
+
+```
+sudo service sshd restart
+
+```
+
+
+8. Next I'll install and setup unattended upgrades so that my Ubuntu VM will automatically install important security updates. 
+
+
+9. For the last step I will install a firewall called ufw which blocks all incoming connections. To ensure I still have access to my VM I will allow ssh to pass through its filters. 
+
+```
+sudo apt install ufw
+sudo ufw allow ssh
+
+```
+
+After that is done I will install another application called Fail2Ban which will block ips that exhibit suspicous behaviour like multiple failed authentication attempts.
+
+
+
  
  
 <a name="references"/>

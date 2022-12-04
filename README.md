@@ -1,3 +1,5 @@
+
+
 # Securing-Linux-VM-
 ##### Table of Contents  
 * [Objective](#objective)
@@ -61,6 +63,14 @@ sudo ufw allow ssh
 ```
 
 After that is done I will install another application called Fail2Ban which will block ips that exhibit suspicous behaviour like multiple failed authentication attempts.
+
+
+
+
+
+
+
+https://user-images.githubusercontent.com/25124463/205473251-b9b6efcd-4f04-492d-a642-3e514502f10c.mp4
 
 
 

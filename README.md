@@ -69,3 +69,6 @@ After that is done I will install another application called Fail2Ban which will
 <a name="references"/>
 
 ## References
+
+* [opensource.com](https://opensource.com/article/19/10/linux-server-security)
+* [www.cyberciti.biz](https://www.cyberciti.biz/tips/linux-security.html#:~:text=Linux%20comes%20with%20various%20security,security%20policies%20for%20Linux%20kernel.)

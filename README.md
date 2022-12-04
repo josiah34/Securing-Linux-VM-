@@ -70,9 +70,6 @@ After that is done I will install another application called Fail2Ban which will
 
 
 
-https://user-images.githubusercontent.com/25124463/205473251-b9b6efcd-4f04-492d-a642-3e514502f10c.mp4
-
-
 
  
  

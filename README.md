@@ -30,7 +30,7 @@ I will be creating an Ubuntu VM on Linode in order to practice securing and hard
 
 4. Next I'll create a sudoer account so that I can login without using root. <br>
  ``adduser admin`` **Creating the new user**<br>
- ``usermod -a -G admin`` **Adding new user to the sudo**
+ ``usermod -a -G admin`` **Adding new user to the sudo group**
  ![new user](https://user-images.githubusercontent.com/25124463/205456533-dde3ba45-eed9-4256-b054-c8d1775c5234.jpg)
  
  
